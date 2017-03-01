@@ -32,8 +32,8 @@ print("You entered "" + txt + "". Now jumble it:")
 N = txt[ ::-1]
 print(N)
 
-txt.split()
-
+i = txt.split()
+print(i)
 
 
 
