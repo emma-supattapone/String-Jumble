@@ -12,7 +12,7 @@ Write and submit a Python program that accepts a string from
 the user and prints it back in three different ways:
 
 * With all letters in reverse.
-* With words in reverse order, but letters within each word in 
+* With words in reverse order, but letters within each word in
   the correct order.
 * With all words in correct order, but letters reversed within 
   the words.
@@ -29,15 +29,31 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 txt = input("Please enter a string of text (the bigger the better): ")
 print("You entered "" + txt + "". Now jumble it:")
+
 N = txt[ ::-1]
 print(N)
 
 i = txt.split()
-print(i)
+
+Z = i[ ::-1]
+outputString = " ".join(Z)
+
+for x in Z:
+    print(x, end=" ")
+    
+print(" ")    
+    
+N = txt[ ::-1]
+
+
+r = N.split()
+
+q = r[ ::-1]
+outputString = " ".join(q)
+
+for e in q:
+    print(e, end=" ")    
+    
 
 
 
-
-
-L = len(txt)
-print (L)
